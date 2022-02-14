@@ -17,16 +17,16 @@ python-requests # Since we're going to send data to Internet.
 python-cryptography # Some elements in headers need this.
 ```
 
-2. 获取这个脚本，最后一行写入你的学号和密码。<br>
-Get the script, change the last line, fill your school ID and password there.
+2. 获取这两个脚本，放在同一目录下。主要脚本的最后一行写入你的学号和密码。<br>
+Get the two scripts. Place them in the same folder. Change the last line in the main script, fill your school ID and password there.
 
-3. 给老子运行！  
+3. 给老子运行！<br>
 Run it!
 
 ## More function?
-我正打算获取体育成绩，目前遇到了一点问题。而且我很懒，不打算给大家输出具体记录了。<br>
+我很懒，不打算给大家输出具体记录了。电表有个获取期末成绩功能，我有点迟疑要不要弄，因为未开放查询。<br>
 我才刚开始写三天 python 好嘛，之前我一句话都没写过的:-P  
-I am trying to get the PE's score, current I encountered some trouble. And I am too lazy to output the detailed record.<br>
+I am too lazy to output the detailed record. I am wondering about the Final Score, since I cannot see it.<br>
 Come on! I have just started writing python for about... three days:-P
 
 ## Thanks
