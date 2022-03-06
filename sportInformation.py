@@ -31,7 +31,10 @@ def getRecord(whoami):
     print("你总共有{}个记录".format(allTime))
     validData = report.post(
         'https://xd.boxkj.com/app/stuPunchRecord/findPagerOk', headers=getHead(queryBody), data=queryBody).json()['data']
-    theoryScore = len(validData)
+    theoryScore = 0
+    for i in allData:
+        if "恭喜你" in i['state']:
+            theoryScore += 1
     print("你的体育打卡分数应该是{}".format(theoryScore))
 
 def getScoreDetail(meaScoreId):
